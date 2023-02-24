@@ -1,0 +1,732 @@
+*{
+  margin: 0px;
+  color: #495769;
+}
+
+
+/* Login page */
+
+/***    General     ***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif
+}
+
+.m-5-auto {
+  margin: 5rem auto
+}
+
+h2 {
+  font-weight: 300
+}
+
+.largeFont {
+  font-size: 75px;
+  color: #f3f3f3;
+}
+
+form {
+  display: inline-block;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 2rem;
+  margin: 2rem 0 1rem 0
+}
+
+form label {
+  float: left;
+  font-size: .9rem;
+  margin: 0;
+  padding: 0
+}
+
+.right-label {
+  float: right;
+  cursor: pointer
+}
+
+input {
+  width: 15rem;
+  padding: .3rem;
+  border-radius: 5px;
+  outline: none;
+  border: none
+}
+
+#sub_btn {
+  display: block;
+  width: 100%;
+  padding: .3rem;
+  border: none;
+  background: #F07839;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#sub_btn:hover {
+  background: #333;
+  transition: all .5s
+}
+
+footer p {
+  margin: 0;
+  font-size: .9rem
+}
+
+/* Chart style */
+
+
+.columnChart{
+background-color: red;
+}
+
+.tableOrder {
+  /* width: 40vh; */
+  /* white-space: nowrap; */
+  text-align: center;
+  /* height: 2vh; */
+}
+
+.noHeader {
+  background-color: white;
+  border-color: white;
+  border:solid;
+  font-size: 0px;
+}
+
+.classTable{
+  width: 40vh;
+  /* white-space: nowrap; */
+  height: 2vh; 
+  text-align: center;
+}
+
+.printerPage{
+  background-color: transparent;  
+  border-color: transparent;
+  font-family: Inter,Arial,Helvetica,sans-serif;
+  margin: 0px;
+  height: 700px;
+}
+
+/* Navbar  */
+
+.navBar{
+  background-color: #FFFFFF;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.divPrinterIcon{
+  margin-left: 15px;
+  background-color: #F07839;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 9px 9px;
+  margin-right: 6%;
+}
+
+#printerIcon {
+  height: 60%;
+}
+
+#printerIcon:hover {
+  cursor: pointer;
+  height: 68%;
+}
+
+
+.midNavBar{
+  width: 60%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  margin-right: 10%;
+  font-family: 'Sora';
+  font-weight: bold;
+}
+
+.midNavBar p:hover {
+  cursor: pointer;
+  color:#F07839;
+}
+
+.divRigthNavBar{
+  width: 25%;
+  display: inline-block;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  box-Shadow: 1000px 3000px 1000px #151515;
+}
+
+.navBarIcons{
+  width: 19px;
+}
+
+.navBarIcons:hover{
+  width: 22px;
+  cursor: pointer;
+}
+
+/* Body */
+
+/* NavBar Body */
+
+.navBarPrinter{
+  display: flex;
+}
+
+.storeOptions{
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#mainDropDown{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: #F07839;
+  /* padding-right: 5px; */
+}
+
+.css-9gakcf-option, .css-26l3qy-menu, .css-1s2u09g-control, .css-tj5bde-Svg path, .css-4ljt47-MenuList, #react-select-3-option-0, .css-1n7v3ny-option, #react-select-3-option-1, .css-1n7v3ny-option, .css-tj5bde-Svg path, .css-319lph-ValueContainer, .css-1hb7zxy-IndicatorsContainer, .css-1okebmr-indicatorSeparator, .css-tlfecz-indicatorContainer, .css-1hb7zxy-IndicatorsContainer, .css-1s2u09g-control, .css-1f43avz-a11yText-A11yText, .css-1f43avz-a11yText-A11yText .css-b62m3t-container{
+  border-width: 0px !important;
+  border-color: #F07839 !important;
+  /* padding-right: 5px;
+  padding-bottom: 3px !important; */
+  background-color: #F07839 !important;
+  outline:none !important;
+  border-color: #F07839 !important;
+  box-shadow: none !important;
+  margin: 0px !important;
+}
+
+.css-9gakcf-option:hover, .css-26l3qy-menu:hover, .css-1s2u09g-control:hover, .css-tj5bde-Svg path:hover, .css-4ljt47-MenuList:hover, #react-select-3-option-0:hover, .css-1n7v3ny-option:hover, #react-select-3-option-1:hover, .css-1n7v3ny-option:hover, .css-tj5bde-Svg path:hover, .css-319lph-ValueContainer:hover, .css-1hb7zxy-IndicatorsContainer:hover, .css-1okebmr-indicatorSeparator:hover, .css-tlfecz-indicatorContainer:hover, .css-1hb7zxy-IndicatorsContainer:hover, .css-1s2u09g-control:hover, .css-1f43avz-a11yText-A11yText:hover, .css-1f43avz-a11yText-A11yText:hover .css-b62m3t-container:hover{
+  cursor: pointer;
+  border-width: 0px !important;
+  border-color: #F07839 !important;
+  /* padding: 0px !important; */
+  /* padding-bottom: 3px !important; */
+  background-color: #F07839 !important;
+  outline:none !important;
+  border-color: #F07839 !important; 
+  box-shadow: none !important;
+  margin: 0px !important;
+}
+
+.css-tj5bde-Svg path{
+  color: white !important;
+  width: 100px !important;
+}
+
+.css-319lph-ValueContainer{
+  width: 200px !important;
+  padding: 0px !important;
+  padding: 100px;
+}
+
+.css-6j8wv5-Input{
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.css-1pahdxg-control{
+  border-color: #F07839 !important;
+  box-shadow: none !important;
+  background-color: #F07839 !important;
+}
+
+.css-1pahdxg-control:hover{
+  border-color: #F07839 !important;
+  box-shadow: none !important;
+  background-color: #F07839 !important;
+}
+
+#react-select-3-listbox, .css-4ljt47-MenuList{
+  border-radius: 20px !important;  
+}
+
+#mainDropDownText{
+  margin-left: 12px;
+  width: auto;
+  background-color: #F07839;
+}
+
+.logoCompany{
+  background-color: #FFFFFF;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.companyName{
+  margin-left: 5px;
+  /* margin-right: 2%; */
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: 'Sora';
+  font-size: 12pt;
+}
+
+
+#isIcon{
+  width: 95%;
+  height: 21%;
+}
+
+.navBarActions{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#searchLabels{
+  height: 30%;
+  border: 0px;
+  padding: 0px;
+  height: 50%;
+  width: 43%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px 0px 0px 6px;
+  color: #bfc0ca;
+  outline:none;
+}
+
+.divSearchIcon{
+  margin-right: 3%;
+  height: 50%;
+  width: 6%;
+  background-color:white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 0px 6px 6px 0px;
+}
+
+#searchIcon{
+  height: 65%;
+}
+
+#searchIcon:hover {
+  cursor: pointer;
+}
+
+#btnNewPrinter{
+  margin-right: 3%;
+  width: 28%;
+  border: 0px;
+  color: #F07839;
+  height: 50%;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.divBarCodeDash:hover, #btnNewPrinter:hover, #btnLess:hover, #btnMost:hover, #btnInsert:hover, #btnReset:hover{
+  cursor: pointer;
+  background-color: #faf0e4;
+}
+
+#btnEnter:hover {
+  cursor: pointer;
+  background-color: #faf0e4;
+  color: #F07839;
+} 
+
+#optionIcon{
+  width: 4%;
+  height: 50%;
+  margin-right: 3%;
+}
+
+.screenStagePrinterIcon, #optionIcon:hover, #barCodeHistoryIcon:hover {
+  cursor: pointer;
+}
+
+/* Printer Bar */
+
+.body{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  height: 650px;
+}
+
+/* Body left */
+
+.navBarPrinter{
+  background-color: #F07839;
+  height: 10%;
+  border-radius: 9px 9px 0px 0px;
+}
+
+
+.mainPrinter{
+  background-color: white;
+  width: 85%;
+  margin: 1%;
+  border-radius: 9px;
+}
+
+.midLane{
+  height: 77%;
+  display: flex;
+}
+
+.stageInput{
+  width: 50%;
+  display: flex;
+}
+
+.stageInputLeft{
+  display: grid;
+  align-items: center;
+  width: 50%;
+  margin: 10% 0% 5% 0%;
+}
+
+.divInput{
+  align-items: center ;
+  height: 100%;
+  margin: 0% 10% 0% 20%;
+}
+
+.divInput p{
+  font-size: 14px;
+  margin-bottom: 3px;
+  font-family: 'sans-serif';
+  font-weight: bold;
+}
+
+.inputTyped{  
+  border: 1px solid #c3c3c359;
+  width: 100%;
+  height: 23%;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+
+#inpQty:focus, .inputTyped:focus{ 
+  outline: 2px solid #F07839;
+}
+
+.stageInputRight{
+  width: 50%;
+}
+
+.chooseQty{
+  height: 80%;
+  padding: 20% 20% 0% 10%;
+  /* background-color: yellow; */
+}
+
+.stageInputRight  p{
+  font-size: 14px;
+  margin-bottom: 3px;
+  font-family: 'sans-serif';
+  font-weight: bold;
+}
+
+.divLandsCapeIcon{
+  height: 42.6%;
+  display: flex;
+  border: 1px solid #c3c3c359;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-bottom: 11%
+}
+
+#landscapeIcon{
+  height: 50%;
+  border-radius: 5px;
+}
+
+#barcodeIcon{
+  height: 75%;
+  border-radius: 5px;
+}
+
+.qty{
+  display: flex;
+  margin-bottom: 11%;
+  height: 8.3%;
+}
+
+#inpQty{
+  height: 30%;
+  border: 1px solid #c3c3c359;
+  padding: 0px;
+  height: 93%;
+  width: 63%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  outline:none;
+}
+
+#btnMost{
+  width: 28%;
+  color: #F07839;
+  height: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid #F07839;
+  border-radius: 0px 6px 6px 0px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#btnLess{
+  width: 28%;
+  color: #F07839;
+  height: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid #F07839;
+  border-radius: 6px 0px 0px 6px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#btnInsert{
+  width: 100%;
+  color: #F07839;
+  height: 8.5%;
+  background-color: #FFFFFF;
+  border: 1px solid #F07839;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* stage printer */
+
+.stagePrinter {
+  width: 50%;
+  border-left: 1px solid #c3c3c359;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#stagePrinterIcon{
+  width: 30%;
+}
+
+.screenStagePrinter{
+  width: 50%;
+  border-left: 1px solid #c3c3c359;
+}
+
+.stagePrinterHeader{
+  display: flex;
+  border-bottom: 1px solid #c3c3c359;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.stagePrinterHeaderText{
+  font-size: 14px;
+  font-family: 'sans-serif';
+  font-weight: bold;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+#productBlock{
+  width: 55%;
+}
+
+#qtyBlock{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#actionsBlock{
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.stagePrinterBody{
+  display: flex;
+  border-bottom: 1px solid #c3c3c359;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.stagePrinterBodyText{
+  font-size: 14px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.screenStagePrinterIcon{
+  width: 14px;
+  margin-left: 5px;
+}
+
+/* Main footer */
+
+.footerBarPrinter{
+  display: flex;
+  height: 13%;
+  border-radius: 0px 0px 9px 9px;
+  align-items: center;
+}
+
+#btnReset{
+  width: 36%;
+  color: #F07839;
+  height: 39%;
+  background-color: #FFFFFF;
+  border: 1px solid #F07839;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 9.8%;
+}
+
+#btnEnter{
+  width: 35%;
+  color: #FFFFFF;
+  height: 39%;
+  background-color:#F07839;
+  border: 1px solid  #F07839;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 9.8%;
+}
+
+.sliceFooterPrinter{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+#sliceFooterRigth{
+  justify-content: end;
+  margin-right: 2%;
+  width: 46%;
+}
+
+#font1Footer{
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+#font2Footer{
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 2%;
+}
+
+/* Body right */
+
+.labelDash{
+  background-color: white;
+  width: 15%;
+  margin: 1%;
+  margin-left: 0;
+  border-radius: 11px;
+}
+
+.navBarDash{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+#setaLeftIcon{
+  width: 12%;
+  height: 28%;
+}
+
+#setaLeftIcon:hover {
+  cursor: pointer;
+}
+
+#midLaneDash{
+  overflow:auto;
+  height: 478px;  
+  width: 100%;
+  display: block;
+  /* background-color: red; */
+  /* height: 80px; */
+  overflow-y: auto;
+  overflow-x: auto;
+  font-size: 18px;
+  /* direction: rtl; */
+}
+
+.labelHistory{
+  border: 1px solid #c3c3c359;
+  height: 23%;
+  margin: 12%;
+  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
+  border-radius: 6px; 
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 9px #CCCDCD
+}
+
+.divBarCodeDash{
+  border-radius: 50%;
+  background-color: gray;
+  margin: auto;
+  display: flex;
+  width: 50%; 
+  height: 59%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.textLabelHistory{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 3px;
+  font-family: 'sans-serif';
+  font-weight: bold;
+}
+
+#textLabelHistory2{
+  font-weight: normal;
+  margin-bottom: 3px;
+}
+
+#barCodeHistoryIcon{
+  width: 60%;
+  /* margin: 10%; */
+}
+
+
+
+/* for headers, user this font-family */
+/* font-family: 'Sora'; */

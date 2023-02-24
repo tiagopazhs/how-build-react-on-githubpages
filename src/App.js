@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
-function App() {
+import Home from './screens/Home';
+import Printer from './screens/Printer';
+import Reader from './screens/Reader';
+import ThreeRopes from './screens/ThreeRopes';
+
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <HashRouter basename='/ct-stock'>
+      <Routes>
+        <Route path="/" element={<Home />}  />
+        <Route path="/Printer-Customizer" element={<Printer />}/>
+        <Route path="/Three-Ropes" element={<ThreeRopes />}/>
+        <Route path="/Validation-Order" element={<Reader />}/>
+      </Routes>
+      </HashRouter>
+  )
 }
 
 export default App;
