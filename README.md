@@ -24,4 +24,12 @@ npm run deploy
 //Change the branch on git
 On github > Repositorie > Settings > Pages > Branch > {Change to "gh-pages"}
 
+# Possible errors
+//Package json private, to solve it, change to false:
+{
+  "name": "front-react",
+  "version": "0.1.0",
+  "private": false,
+
+
 
