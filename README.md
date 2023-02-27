@@ -30,6 +30,7 @@ On github > Repositorie > Settings > Pages > Branch > {Change to "gh-pages"}
   "name": "front-react",
   "version": "0.1.0",
   "private": false,
-
+  
+ // Change the App.js from <BrowserRouter/> to <HashRouter/>
 
 
